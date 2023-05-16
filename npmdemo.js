@@ -17,10 +17,11 @@ console.log('End of day:  ' + now.endOf('day').fromNow());
 console.log('add day: ' + now.add(7, 'days').calendar());
 
 ///if we want to find the difference between a set date and now, we can use this:
-
 let Birthday = moment('2001-06-03');
 let numdays = now.diff(Birthday, 'days');
 console.log(`As of today ${now.format('MM/DD/YYYY')}, ${numdays} days have gone by since I was born, ${numdays/365} is how many years since`)
 
+/// I can see how far away my birthday is by using: 
 console.log("My birthday is? ")
 console.log(moment("2023-06-03", "YYYY-MM-DD").fromNow());
+
