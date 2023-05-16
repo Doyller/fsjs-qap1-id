@@ -16,5 +16,3 @@ console.info("Program Ended");/// similar function to console.log, processes wri
 const Baseball = [['Blue Jays', 'Bichette'],['Braves', 'Acuna Jr.'], ['Rays', 'Arozarena'], ['Yankees', 'Judge']];
 console.info("Some baseball teams and their best players")
 console.table(Baseball);/// sets up a table within the console 
-
-console.profile
